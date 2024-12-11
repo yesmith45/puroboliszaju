@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Domicilios - Sweetgreen</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700;800&display=swap" rel="stylesheet">
+    
+     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+     <link rel="stylesheet" href="assets/css/templatemo.css">
+     <link rel="stylesheet" href="assets/css/custom.css">
+     <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+
+    
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Playfair Display', sans-serif;
+            background-color: #f8f5ec;
+            color: #c69b7c;
+        }
+        .h2 {
+        font-family: 'Raleway', sans-serif;
+        font-size: 30px !important;
+         font-weight: 300;
+}
+     .h3 {
+     font-family: 'Raleway', sans-serif;
+     font-size: 22px !important;
+}
+
+        header {
+            background-color: #c69b7c;
+            color: #fff;
+            padding: 10px 20px;
+            text-align: center;
+        }
+
+        .banner {
+            background-image: url('fondo-verde.jpg'); /* Reemplaza con tu imagen de fondo */
+            background-size: cover;
+            background-position: center;
+            text-align: center;
+            color: #000000;
+            padding: 60px 20px;
+        }
+
+        .banner h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        .banner p {
+            margin: 10px 0 0;
+            font-size: 1.2em;
+        }
+
+        .options {
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .option {
+            flex: 1;
+            padding: 20px;
+            background-color: #ffe7be;
+            margin: 5px;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .option:hover {
+            background-color: #ffd493;
+        }
+
+        .option i {
+            font-size: 2em;
+            margin-bottom: 10px;
+            display: block;
+        }
+
+        .option button {
+            margin-top: 10px;
+            padding: 10px 20px;
+            background-color: #c69b7c;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .option button:hover {
+            background-color: #c69b7c;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #c69b7c;
+            color: #fff;
+        }
+        .social-footer {
+             text-align: center;
+            background-color: #f8f5ec;
+             padding: 20px 0;
+            color: #4a2e20;
+             font-family: Arial, sans-serif;
+        }
+
+        .social-footer h2 {
+             font-size: 1.2em;
+             margin-bottom: 15px;
+             letter-spacing: 2px;
+        }
+
+      .social-icons {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+
+        .social-icons a {
+            display: inline-block;
+            width: 50px;
+            height: 50px;
+            border: 1px solid #4a2e20;
+            border-radius: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+
+        .social-icons a img {
+             width: 40px;
+             height: 40px;
+        }
+
+        .social-icons a:hover {
+            background-color: #4a2e20;
+            color: #fff;
+        }
+
+    </style>
+</head>
+<body>
+        <!-- Inicio del Encabezado -->
+        <nav class="navbar navbar-expand-lg bg-dark navbar-light" id="templatemo_nav_top">
+            <div class="container text-light">
+                <div class="w-100 d-flex justify-content-between">
+                    <div>
+                        <i class="fa fa-envelope mx-2"></i>
+                        <a class="navbar-sm-brand text-light text-decoration-none" href="mailto:info@sweetgreen.com">info@sweetgreen.com</a>
+                        <i class="fa fa-phone mx-2"></i>
+                        <a class="navbar-sm-brand text-light text-decoration-none" href="tel: (+57)300 123 123">(+57)300 123 123</a>
+                    </div>
+                    <div>
+                        <a class="text-light" href="https://fb.com/templatemo" target="_blank" rel="sponsored"><i class="fab fa-facebook-f fa-sm fa-fw me-2"></i></a>
+                        <a class="text-light" href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram fa-sm fa-fw me-2"></i></a>
+                        <a class="text-light" href="https://twitter.com/" target="_blank"><i class="fab fa-twitter fa-sm fa-fw me-2"></i></a>
+                    </div>
+                </div> 
+            </div>
+        </nav>
+        <!-- Fin del Encabezado -->
+    
+        <!-- Inicio del Menu (Barra Horizontal) -->
+         <nav class="navbar navbar-expand-lg navbar-light shadow">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#opciones">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="container d-flex justify-content-between align-items-center">
+                <a class="navbar-brand text-success logo h1 align-self-center" href="index.html">Sweetgreen</a>
+                <div class="align-self-center collapse navbar-collapse flex-fill d-lg-flex justify-content-lg-between" id="opciones">
+                    <ul class="nav navbar-nav d-flex justify-content-between mx-lg-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="About.html">Acerca de</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Shop.html">Compras</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Contacto.html">Contacto</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Domicilios.html">Domicilios</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+     
+         </nav>
+        <!-- Fin del Menu (Barra Horizontal) -->    
+    <header>
+        <h1>Sweetgreen</h1>
+    </header>
+    <section class="banner">
+        <h1>Domicilios</h1>
+        <p>Selecciona una opción</p>
+    </section>
+    <section class="options">
+        <div class="option">
+            <i>🛒</i>
+            <h2>Pide tu domicilio en línea</h2>
+            <button>Comprar en línea</button>
+        </div>
+        <div class="option">
+            <i>📞</i>
+            <h2>Pide por teléfono</h2>
+            <button>Pide ya</button>
+        </div>
+        <div class="option">
+            <i>📱</i>
+            <h2>Pide tu domicilio por WhatsApp</h2>
+            <button>Pedir por WhatsApp</button>
+        </div>
+    </section>
+    <section class="social-footer">
+        <h2>SÍGUENOS EN</h2>
+        <div class="social-icons">
+            <a href="https://facebook.com" target="_blank" aria-label="Facebook">
+                <img src="https://e7.pngegg.com/pngimages/588/1007/png-clipart-logo-computer-icons-facebook-facebook-blue-text-thumbnail.png" alt="Facebook">
+            </a>
+            <a href="https://instagram.com" target="_blank" aria-label="Instagram">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/1024px-Instagram_logo_2022.svg.png" alt="Instagram">
+            </a>
+        </div>
+    </section>
+     <!-- Inicio de Footer -->
+     <footer class="bg-dark" id="templatemo_footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 pt-5">
+                    <h2 class="h2 text-success border-bottom pb-3 border-light log">Sweetgreen</h2>
+                    <ul class="list-unstyled text-light footer-link-list">
+                        <li>
+                            <i class="fas fa-map-market-alt fa-fw"></i>
+                            Barranquilla - Colombia
+                        </li>
+                        <li>
+                            <i class="fa fa-phone fa-fw"></i>
+                            <a class="text-decoration-none" href="tel: (+57)300 123 123">(+57)300 123 123</a>
+                        </li>
+                        <li>
+                            <i class="fa fa-envelope mx-2"></i>
+                            <a class="text-decoration-none" href="mailto:info@sweetgreen.com">info@sweetgreen.com</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-4 pt-5">
+                    <h2 class="h2 text-light border-bottom pb-3 border-light">Productos</h2>
+                    <ul class="list-unstyled text-light footer-link-list">
+                        <!-- Enlace a cada sección de la página -->
+                        <li><a class="text-decoration-none" href="Shop.html">Pasteles de cumpleaños</a></li>
+                        <li><a class="text-decoration-none" href="Shop.html">Pasteles de boda</a></li>
+                        <li><a class="text-decoration-none" href="Shop.html">Postres</a></li>
+                        <li><a class="text-decoration-none" href="Shop.html">Helados</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 pt-5">
+                    <h2 class="h2 text-light border-bottom pb-3 border-light">Más información</h2>
+                    <ul class="list-unstyled text-light footer-link-list">
+                        <li><a class="text-decoration-none" href="index.html">Home</a></li>
+                        <li><a class="text-decoration-none" href="About.html">Acerca de</a></li>
+                        <li><a class="text-decoration-none" href="Shop.html">Compras</a></li>
+                        <li><a class="text-decoration-none" href="Contacto.html">Contacto</a></li>
+                        <li><a class="text-decoration-none" href="Domicilios.html">Domicilios</a></li>
+                    </ul>
+                </div>
+            </div>
+ 
+        </div>
+        <div class="w-100 bg-black py-3">
+            <div class="container">
+                <div class="row pt-2">
+                    <p class="text-left text-light">
+                        Copyright &copy; 2024 - Sweetgreen | Diseñado por: Yesmith Sarmiento, Jhon Lopez, Danna Orellano, Eddy Martinez.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Fin del Footer -->
+    <!-- Archivos jS-->
+     <script src="assets/js/bootstrap.bundle.min.js"></script>
+     <script src="assets/js/jquery-migrate-1.2.1.min.js"></script>
+     <script src="assets/js/jquery-1.11.0.min.js"></script>
+     <script src="assets/js/templatemo.js"></script>
+     <script src="assets/js/custom.js"></script>
+</body>
+</html>
