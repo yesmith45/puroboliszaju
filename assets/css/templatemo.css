@@ -33,7 +33,7 @@ Table of contents
 /* Typography */
 body, ul, li, p, a, label, input, div {
  font-family: 'Playfair Display', sans-serif;
- color: #4a4a4a;    /* Un tono ligeramente más claro que el*/
+ color: #2d2d2d;    /* Un tono ligeramente más claro que el*/
   font-size: 18px !important;
   font-weight: 300 !important;
 }
@@ -43,7 +43,7 @@ body, ul, li, p, a, label, input, div {
     font-size: 2.8em;
     text-transform: uppercase;
     text-align: left; /* Título alineado a la izquierda */
-    color: #6B8E23; /* Verde elegante */
+    color: #2b4b6f; /* Verde elegante */
 }
 .h2 {
   font-family: 'Raleway', sans-serif;
