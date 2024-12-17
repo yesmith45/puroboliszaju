@@ -160,7 +160,7 @@ body, ul, li, p, a, label, input, div {
   color: #f0ab7c;
   transition: .5s;
 }
-#tempaltemo_footer .border-light { border-color: #2d343f !important;}
+#tempaltemo_footer .border-light { border-color: #ffffff !important;}
 /*
 // Extra small devices (portrait phones, less than 576px)
 // No media query since this is the default in Bootstrap
