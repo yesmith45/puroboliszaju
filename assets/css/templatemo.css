@@ -237,3 +237,29 @@ button {
   font-size: 1em;
   cursor: pointer;
 }
+   .carousel-item img {
+  height: 80vh; /* Ajusta la altura del carrusel */
+  object-fit: cover;
+}
+
+.carousel-caption {
+  background: rgba(0, 0, 0, 0.5); /* Fondo semi-transparente */
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(100%);
+}
+
+.carousel-indicators button {
+  background-color: #ffffff;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+.carousel-indicators .active {
+  background-color: #68bb7d; /* Cambia por el color de tu elección */
+}
+              
