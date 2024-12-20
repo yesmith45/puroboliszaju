@@ -241,7 +241,7 @@ button {
 .carousel {
     position: relative;
     width: 100%;
-    height: 60vh; /* Altura elegante y moderada */
+    height: 30vh; /* Altura elegante y moderada */
     overflow: hidden;
     border-radius: 10px; /* Bordes redondeados */
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Sombra para elegancia */
